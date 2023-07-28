@@ -8,7 +8,7 @@ ul{
 }
 
 .container{
-    max-width: 1440px;
+    max-width: 1180px;
     margin:auto;
     padding: 0 16px;
 }
@@ -33,6 +33,16 @@ header .container{
 
 header .logo{
     display: inline-block;
+    font-size: 27px;
+}
+
+header .logo .blue-dot{
+    width: 10px;
+    height: 10px;
+    background-color: #3E50E5;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 6px;
 }
 
 header nav{
@@ -54,4 +64,4 @@ header nav ul li a{
 
 header nav ul li:last-of-type a{
     margin-right: 0;
-}
+} 
