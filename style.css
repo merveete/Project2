@@ -95,6 +95,15 @@ section.hero{
     margin-bottom: 16px;
 }
 
+.hero-content p{
+    max-width: 518px;
+    color: var(--whight, #FFF);
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}
+
 section.hero img{
     width: 100%;
     height: auto;
