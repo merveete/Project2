@@ -103,6 +103,8 @@ section.hero{
     font-size: 20px;
     letter-spacing: 0.5px;
     line-height: 28px;
+    margin-bottom: 21px;
+    margin-top: 0;
 }
 
 .hero-content button{
