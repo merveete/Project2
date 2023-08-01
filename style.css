@@ -129,6 +129,10 @@ section.hero img{
     height: auto;
 }
 
+section.best-sellers{
+    padding-top: 80px;
+}
+
 section.best-sellers hr{
     border: none;
     border-top: 5px solid #67F11D;
@@ -145,6 +149,18 @@ section.best-sellers h2{
     margin: 0 0 14px 0;
 }
 
-section.best-sellers{
-    padding-top: 80px;
+
+section.best-sellers .container{
+    display: flex;
+    justify-content: space-around;
+}
+
+section.best-sellers .product-slider .product{
+    border-radius: 8px;
+    border: 1px solid #DDD;
+    }
+
+section.best-sellers .product-slider .product{
+    width: 33%;
+    text-align: center;
 }
