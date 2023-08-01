@@ -190,3 +190,11 @@ section.best-sellers .product-slider .product .product-info .title{
     margin-top: 0;       
 }
 
+section.best-sellers .product-slider .product .product-info .price{
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    line-height: 30px;
+    margin-bottom: 16px;
+    margin-top: 0; 
+}
