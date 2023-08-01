@@ -68,7 +68,7 @@ header nav ul li:last-of-type a{
 } 
 
 section.hero{
-  position: relative;  
+    position: relative;  
 }
 
 .hero-content{
@@ -151,6 +151,11 @@ section.best-sellers hr{
 section.best-sellers .container{
     display: flex;
     justify-content: space-around;
+    padding: 0 8px;
+}
+
+section.best-sellers .product-slider{
+    margin-top: 76px;
 }
 
 section.best-sellers .product-slider .product{
@@ -158,4 +163,10 @@ section.best-sellers .product-slider .product{
     border: 1px solid #DDD;
     width: 33%;
     text-align: center;
-    }
+    padding: 40px;
+    margin:0 8px;
+}
+
+section.best-sellers .product-slider .product .product-info{
+    margin-top: 50px;
+}
