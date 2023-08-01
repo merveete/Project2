@@ -180,3 +180,13 @@ section.best-sellers .product-slider .product .product-info .categories{
     margin-bottom: 8px;
     margin-top: 0;
 } 
+
+section.best-sellers .product-slider .product .product-info .title{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    font-weight: normal;
+    margin-bottom: 6px;
+    margin-top: 0;       
+}
+
