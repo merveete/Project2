@@ -170,3 +170,13 @@ section.best-sellers .product-slider .product{
 section.best-sellers .product-slider .product .product-info{
     margin-top: 50px;
 }
+
+section.best-sellers .product-slider .product .product-info .categories{
+    color: var(--blue, #3E50E5);
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 30px;
+    margin-bottom: 8px;
+    margin-top: 0;
+} 
