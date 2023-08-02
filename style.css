@@ -165,6 +165,23 @@ section.best-sellers .product-slider .product{
     text-align: center;
     padding: 40px;
     margin:0 8px;
+    position: relative;
+}
+
+section.best-sellers .product-slider .product.new::before{
+    content: "New";
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: red;
+    color: var(--whight, #FFF);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    text-align: center;
+    border-radius: 16px;
+    padding: 4px 15px;
 }
 
 section.best-sellers .product-slider .product .product-info{
@@ -200,13 +217,13 @@ section.best-sellers .product-slider .product .product-info .price{
 }
 
 section.best-sellers .product-slider .product .product-info button{
-height: 50px;   
-width: 220px;
-border-radius: 220px;
-border: 1px solid var(--black, #000);
-font-size: 16px;
-font-weight: 700;
-letter-spacing: 0.4px;
-line-height: 24px;
-background-color: white;
+    height: 50px;   
+    width: 220px;
+    border-radius: 220px;
+    border: 1px solid var(--black, #000);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+    background-color: white;
 }  
