@@ -166,6 +166,9 @@ section.best-sellers .product-slider .product{
     padding: 40px;
     margin:0 8px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 section.best-sellers .product-slider .product.new::before{
