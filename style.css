@@ -304,8 +304,8 @@ section.newsletter form button{
     letter-spacing: 0.35px;
 }
 
-footer{
-    text-align: center;
+footer .bottom-nav .container ul{
+    list-style: none;
 }
 
 footer .bottom-nav{
@@ -317,6 +317,27 @@ footer .bottom-nav .container{
     max-width: 955px;
     display: flex;
     justify-content: space-between;
+}
+
+footer .bottom-nav .container ul li.list-title{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    color: var(--whight, #FFF);
+    margin-top: 0;
+    margin-bottom: 20px;    
+}
+
+footer .bottom-nav .container ul li a{
+    color: #E0E0E0;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 22px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: block;
 }
 
 footer .copyright-text{
