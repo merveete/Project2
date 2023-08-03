@@ -313,6 +313,12 @@ footer .bottom-nav{
     background: var(--gray, #3E3E3E);
 }
 
+footer .bottom-nav .container{
+    max-width: 955px;
+    display: flex;
+    justify-content: space-between;
+}
+
 footer .copyright-text{
     background: #2B2B2B;
     color: #E0E0E0;
