@@ -63,6 +63,10 @@ header nav ul li a{
     text-decoration: none;
 }
 
+header nav ul li a:hover{
+    color:#3E50E5
+}
+
 header nav ul li:last-of-type a{
     margin-right: 0;
 } 
@@ -122,7 +126,14 @@ section.hero{
     line-height: 24px; 
     text-align: center;
     max-width: 100%;
+    cursor: pointer;
 }    
+
+.hero-content button:hover{
+    color:#3E50E5;
+    background-color: #FFF;
+    background: 1px solid #3E50E5;
+}
 
 section.hero img{
     width: 100%;
@@ -244,6 +255,13 @@ section.best-sellers .product-slider .product .product-info button{
     background-color: white;
 }  
 
+section.best-sellers .product-slider .product:hover .product-info button{
+    background-color: #3E50E5;
+    color: white;
+    border: 1px solid #3E50E5;
+    cursor: pointer;
+}
+
 section.newsletter{
     background: var(--lightgray, #C8C8C8);
     max-width: 955px;
@@ -304,6 +322,13 @@ section.newsletter form button{
     letter-spacing: 0.35px;
 }
 
+section.newsletter form button:hover{
+    background-color: #FFF;
+    color: #3E50E5;
+    border: 1px solid #3E3E3E;
+    cursor: pointer;
+}
+
 footer .bottom-nav .container ul{
     list-style: none;
 }
@@ -338,6 +363,10 @@ footer .bottom-nav .container ul li a{
     margin-bottom: 10px;
     text-decoration: none;
     display: block;
+}
+
+footer .bottom-nav .container ul li a:hover{
+    color: #3E50E5
 }
 
 footer .copyright-text{
