@@ -441,5 +441,20 @@ footer .copyright-text{
     .container{       
         max-width: 92%;        
     }
+
+    header .logo{      
+        font-size: 18px;
+    }
+
+    header .logo .blue-dot{
+        width: 7px;
+        height: 7px;
+    }
+
+    header nav ul li.menu_icon{
+        width: 24px;
+        height: auto;
+    }
+   
 }
 /* End of Design for Mobile Phones */
