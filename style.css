@@ -56,6 +56,14 @@ header nav ul li{
     display: inline-block;
 }
 
+header nav ul li.menu_icon{
+    display: none;
+}
+
+header nav ul li.menu_icon img{
+    vertical-align: middle;
+}
+
 header nav ul li a{
     color: var(--gray, #3E3E3E);
     font-size: 15px;
@@ -411,6 +419,19 @@ footer .copyright-text{
     .container{       
         max-width: 92%;        
     }
+
+    header nav ul li{
+        display: none;
+    }
+    
+    header nav ul li.menu_icon{
+        display: inline-block;
+    }
+
+    header .logo{      
+        font-size: 24px;
+    }
+   
 }
 /* End of Design for Tablets */
 
