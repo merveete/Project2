@@ -410,6 +410,26 @@ footer .copyright-text{
         body{
             padding-top: 70px;
         }
+
+        .hero-content h1{            
+            font-size: 44px;
+            letter-spacing: 1.1px;
+            line-height: 50px;
+            margin-bottom: 12px;           
+        }
+        
+        .hero-content p{ 
+            font-size: 18px;
+            letter-spacing: 0.45px;
+            line-height: 26px;
+            margin-bottom: 12px;       
+        }
+        
+        .hero-content button{         
+            font-size: 14px;         
+            letter-spacing: 0.35px;
+            line-height: 21px;          
+        }    
    }
 /* End of Design for Small Desktops */
 
