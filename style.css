@@ -451,6 +451,24 @@ footer .copyright-text{
     header .logo{      
         font-size: 24px;
     }
+
+    .hero-content h1{            
+        font-size: 40px;
+        letter-spacing: 1px;
+        line-height: 46px;
+                 
+    }
+    
+    .hero-content p{ 
+        font-size: 16px;
+        letter-spacing: 0.4px;
+        line-height: 24px;
+             
+    }
+    
+    .hero-content button{       
+        width: 196px; 
+    }  
    
 }
 /* End of Design for Tablets */
