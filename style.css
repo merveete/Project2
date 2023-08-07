@@ -466,7 +466,10 @@ footer .copyright-text{
              
     }
     
-    .hero-content button{       
+    .hero-content button{  
+        font-size: 14px;  
+        letter-spacing: 0.35px;
+        line-height: 21px;
         width: 196px; 
     }  
    
@@ -493,6 +496,8 @@ footer .copyright-text{
         width: 24px;
         height: auto;
     }
+
+ 
    
 }
 /* End of Design for Mobile Phones */
