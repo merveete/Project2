@@ -262,6 +262,7 @@ section.best-sellers .product-slider .product .product-info button{
     letter-spacing: 0.4px;
     line-height: 24px;
     background-color: white;
+    cursor: pointer;
 }  
 
 section.best-sellers .product-slider .product:hover .product-info button{
@@ -480,6 +481,67 @@ footer .copyright-text{
             letter-spacing: 0.35px;
             line-height: 21px;
         }
+
+        section.newsletter {
+            width: 881px;
+            max-width: 100%;
+            padding: 50px 0;
+            margin: 70px auto;
+        }
+        
+        section.newsletter h3 {
+            font-size: 22px;
+            letter-spacing: 0.55px;
+            line-height: 42px;
+        }
+        
+        section.newsletter p {
+            font-size: 14px;
+            letter-spacing: 0.35px;
+            line-height: 42px;
+            margin-bottom: 15px;
+        }
+        
+        section.newsletter form input {
+            font-size: 12px;
+            letter-spacing: 0.3px;
+            line-height: 18px;
+        }
+        
+        section.newsletter form button {
+            font-size: 12px;
+            letter-spacing: 0.3px;
+            line-height: 18px;
+        }
+
+        footer .bottom-nav {
+            padding: 50px 0;
+        }
+        
+        footer .bottom-nav .container {
+            max-width: 90%;
+        }
+        
+        footer .bottom-nav ul li a {
+            font-size: 14px;
+            letter-spacing: 0.35px;
+            line-height: 22px;
+        }
+        
+        footer .bottom-nav ul li.list-title {
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            line-height: 26px;
+            margin-bottom: 12px;
+        }
+        
+        footer .copyright-text {
+            height: 50px;
+            font-size: 14px;
+            letter-spacing: 0.35px;
+            line-height: 22px;
+            text-align: center;
+        }
    }
 /* End of Design for Small Desktops */
 
@@ -526,6 +588,12 @@ footer .copyright-text{
     section.best-sellers {
         padding-top: 50px;
     }
+
+    section.best-sellers .container{
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+
     
     section.best-sellers h2 {
         font-size: 28px;
@@ -536,6 +604,11 @@ footer .copyright-text{
 
     section.best-sellers .product-slider {
         margin-top: 48px;
+    }
+
+    section.best-sellers .product-slider .product{
+        min-width: 200px;
+        margin: 17px 8px;
     }
     
     section.best-sellers .product-slider .product .product-info .categories {
@@ -581,7 +654,32 @@ footer .copyright-text{
         padding: 0px 12px;
     }
 
-   
+    section.newsletter {
+        width: 100%;
+        max-width: 100%;
+        padding: 50px 0;
+        margin: 50px auto;
+    }
+    
+    section.newsletter h3 {
+        font-size: 22px;
+        letter-spacing: 0.55px;
+        line-height: 42px;
+    }
+    
+    section.newsletter p {
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 42px;
+    }
+
+    footer .bottom-nav {
+        padding: 50px 0;
+    }
+    
+    footer .bottom-nav .container {
+        max-width: 90%;
+    }
 }
 /* End of Design for Tablets */
 
@@ -637,10 +735,10 @@ footer .copyright-text{
     }
     
     section.best-sellers h2 {
-        font-size: 24px;
+        font-size: 36px;
         letter-spacing: 0.6px;
         line-height: 38px;
-        margin: 0 0 14px 0;
+        margin: 0 0 16px 0;
     }
 
     section.best-sellers hr {
@@ -650,6 +748,11 @@ footer .copyright-text{
 
     section.best-sellers .product-slider {
         margin-top: 42px;
+    }
+
+    section.best-sellers .product-slider .product {
+        width: 82%;
+        max-width: 310px;
     }
     
     section.best-sellers .product-slider .product .product-info .categories {
@@ -680,6 +783,32 @@ footer .copyright-text{
         font-size: 12px;
         letter-spacing: 0.3px;
         line-height: 18px;
+    }
+
+    section.newsletter {
+        padding: 44px 0;
+        margin: 60px auto;
+    }
+
+    section.newsletter form input{
+        max-width: 65%;
+    }
+    
+    section.newsletter form button{
+        max-width: 35%;
+    }
+    
+    footer .bottom-nav .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    footer .bottom-nav .container ul {
+        margin-bottom: 32px;
+    }
+
+    footer .bottom-nav .container ul:last-of-type {
+        margin-bottom: 0;
     }
 
 }
