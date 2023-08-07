@@ -497,7 +497,31 @@ footer .copyright-text{
         height: auto;
     }
 
- 
+    .hero-content{
+        position: static;
+    }
+    
+    .hero-content h1{            
+        color: var(--black, #000);
+        font-size: 32px;
+        letter-spacing: 0.8px;
+        line-height: 38px;
+        text-align: center;
+        margin-bottom: 32px; 
+        margin-top: 27px;          
+    }
+    
+    .hero-content p{ 
+       display: none;     
+    }
+    
+    .hero-content button{         
+        font-size: 14px;         
+        letter-spacing: 0.35px;
+        line-height: 21px;   
+        width: 196px;
+        margin: auto;       
+    } 
    
 }
 /* End of Design for Mobile Phones */
